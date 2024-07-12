@@ -1,0 +1,23 @@
+{
+    "name": "/security",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "description": "Provide security functions to wordpress",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        ""
+    ],
+    "homepage": "https://gitlab..fr/wordpress/plugins/security",
+    "authors": [
+        {
+            "name": " WP Team"
+        }
+    ],
+    "require-dev": {
+        "10up/wp_mock": "^0.4.2",
+        "phpunit/phpunit": "^9.5"
+    }
+}
